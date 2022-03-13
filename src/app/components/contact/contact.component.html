@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact form</title>
+
+</head>
+
+<body>
+  <div class="container">
+    <span class="contact-form">
+      <h3 class="p-4">Send Us A Message</h3>
+      <form [formGroup]="contactForm">
+        <div class="form-group">
+
+          <input type="email" name="email" id="email" placeholder="Enter your email" class="form-control" required
+            formControlName="email" [class.is-invalid]="isInValidAndTouched('email')"
+            [class.is-valid]="isValidControl('email')">
+        </div>
+        <div *ngIf="isInValidAndTouched('email')">
+          <small class="form-text text-danger" *ngIf="isControlHasError('email','required')">required
+            field</small>
+          <small class="form-text text-danger" *ngIf="isControlHasError('email','pattern')">invalid
+            email</small>
+        </div>
+        <div class="form-group">
+          <input type="text" name="name" id="name" placeholder=" enter your name" class="form-control" required
+            formControlName="name" [class.is-invalid]="isInValidAndTouched('name')"
+            [class.is-valid]="isValidControl('name')">
+        </div>
+        <div *ngIf="isInValidAndTouched('name')">
+          <small class="form-text text-danger" *ngIf="isControlHasError('name','required')">required
+            field</small>
+        </div>
+
+        <div class="form-group">
+          <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message here"
+            class="form-control" required formControlName="message" [class.is-invalid]="isInValidAndTouched('message')"
+            [class.is-valid]="isValidControl('message')"></textarea>
+        </div>
+        <div *ngIf="isInValidAndTouched('message')">
+          <small class="form-text text-danger" *ngIf="isControlHasError('message','required')">required
+            field</small>
+        </div>
+        <input type="submit" value="Send" [disabled]="contactForm.invalid" [routerLink]="['/home']" routerLinkActive="router-link-active" >
+      </form>
+    </span>
+  </div>
+</body>
+
+</html>
