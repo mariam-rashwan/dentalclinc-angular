@@ -4,6 +4,7 @@ import { HomeCarouselComponent } from './home-carousel/home-carousel.component';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { CardHomeComponent } from './card-home/card-home.component';
+import { AboutTeamComponent } from './about-team/about-team.component';
 
 
 
@@ -15,7 +16,8 @@ const routes: Routes = [
   declarations: [
     HomeCarouselComponent,
     HomeComponent,
-    CardHomeComponent
+    CardHomeComponent,
+    AboutTeamComponent
   ],
   imports: [
     CommonModule,
