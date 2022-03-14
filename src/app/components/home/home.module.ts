@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { HomeCarouselComponent } from './home-carousel/home-carousel.component';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
+import { CardHomeComponent } from './card-home/card-home.component';
 
 
 
@@ -13,7 +14,8 @@ const routes: Routes = [
 @NgModule({
   declarations: [
     HomeCarouselComponent,
-    HomeComponent
+    HomeComponent,
+    CardHomeComponent
   ],
   imports: [
     CommonModule,

@@ -10,6 +10,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { LayoutComponent } from './components/layout/layout.component';
+import { AppointmentFormComponent } from './components/appointment-form/appointment-form.component';
 
 
 
@@ -20,6 +21,7 @@ import { LayoutComponent } from './components/layout/layout.component';
     FooterComponent,
     ContactComponent,
     LayoutComponent,
+    AppointmentFormComponent,
   ],
   imports: [
     BrowserModule,

@@ -53,4 +53,8 @@ button > .navbar-toggler-icon
     top: -50px;
   }
 
+  li>.btn{
+background-color: rgb(123, 170, 204);
+  }
+
   
