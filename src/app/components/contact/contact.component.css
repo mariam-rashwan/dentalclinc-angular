@@ -10,6 +10,9 @@
 
    /* font-family: Arial, Helvetica, sans-serif; */
    color: rgb(41, 39, 39);
+   /* padding-bottom: 20%; */
+
+
  }
 
  .container {
@@ -23,6 +26,7 @@
    border: none;
    box-shadow: 0 0 15px rgb(51, 139, 180);
    background-color: rgb(251, 248, 241);
+   
  }
 
  form {

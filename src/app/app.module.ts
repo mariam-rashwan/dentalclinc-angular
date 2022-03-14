@@ -9,6 +9,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { LayoutComponent } from './components/layout/layout.component';
 
 
 
@@ -18,6 +19,7 @@ import { ContactComponent } from './components/contact/contact.component';
     HeaderComponent,
     FooterComponent,
     ContactComponent,
+    LayoutComponent,
   ],
   imports: [
     BrowserModule,

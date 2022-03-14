@@ -1,36 +1,44 @@
+.firstnav{
+  
+    background-color:rgb(134, 198, 244);
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+
 nav{
  
     padding: 20px 25px;
     z-index: 5;
   
-  background-color:rgb(251, 248, 241)
-  ;
+  background-color:rgb(255, 249, 234);
   
 }  
 .navbar-brand{
-    color:rgb(4, 53, 53);
+    color:rgb(48, 84, 110);
     font-weight: 900;
     font-size: 32px;
 }
 li>.nav-link{
-    color:rgb(22, 110, 110);
+    color:rgb(83, 121, 148);
     font-weight: 200;
     font-size: 16px;
 }
 li>.nav-link:hover {
-    color: rgb(84, 186, 185);
+    color: rgb(134, 198, 244);
   }
 
 button > .navbar-toggler-icon 
 {
-    color:rgb(4, 53, 53);
+    color:rgb(48, 84, 110);
 
 }
  .btn{
      color: transparent;
  }
 
-/* //// */
 
 
   
