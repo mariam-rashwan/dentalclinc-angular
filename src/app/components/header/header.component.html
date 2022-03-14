@@ -10,7 +10,7 @@
 
 
 <!-- /// second part nav -->
-<nav class="navbar navbar-expand-lg ">
+<nav class="navbar navbar-expand-lg shadow-lg" (scroll)='onScroll()'  [ngClass]=" navbarfixed ?'fixed':'nofixed' ">
     <div class="container-fluid">
       <a class="navbar-brand" routerLink='/home' routerLinkActive="active" >
         <i class='fas fa-tooth' ></i>

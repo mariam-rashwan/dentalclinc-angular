@@ -39,6 +39,18 @@ button > .navbar-toggler-icon
      color: transparent;
  }
 
-
+ .fixed {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    transition: 0.25s linear;
+  
+  }
+  
+  .nofixed {
+    position: static;
+    transition: 0.25s linear;
+    top: -50px;
+  }
 
   
