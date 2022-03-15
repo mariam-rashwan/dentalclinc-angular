@@ -11,6 +11,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { LayoutComponent } from './components/layout/layout.component';
 import { AppointmentFormComponent } from './components/appointment-form/appointment-form.component';
+import { ServiceComponent } from './components/service/service.component';
+
 
 
 
@@ -22,6 +24,8 @@ import { AppointmentFormComponent } from './components/appointment-form/appointm
     ContactComponent,
     LayoutComponent,
     AppointmentFormComponent,
+    ServiceComponent,
+   
   ],
   imports: [
     BrowserModule,
