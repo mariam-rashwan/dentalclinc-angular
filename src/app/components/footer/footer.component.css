@@ -1,15 +1,16 @@
 section{
-    background-color:rgb(88, 140, 177);
+    background-color:rgb(8, 48, 78);
 }
 .space{
     /* height: calc(100% - 80px); */
+    padding-top: auto;
     height: auto;
     background-color: transparent;
     /* padding-top: 10%; */
 
 }
 .copyright{
-    background-color:rgb(46, 76, 97);
+    background-color:rgb(18, 53, 75);
     
 
 

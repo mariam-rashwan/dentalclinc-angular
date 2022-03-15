@@ -12,6 +12,9 @@ import { ContactComponent } from './components/contact/contact.component';
 import { LayoutComponent } from './components/layout/layout.component';
 import { AppointmentFormComponent } from './components/appointment-form/appointment-form.component';
 import { ServiceComponent } from './components/service/service.component';
+import { HomeModule } from './components/home/home.module';
+import { PatientPillComponent } from './components/patient-pill/patient-pill.component';
+import { AboutComponent } from './components/about/about.component';
 
 
 
@@ -25,15 +28,19 @@ import { ServiceComponent } from './components/service/service.component';
     LayoutComponent,
     AppointmentFormComponent,
     ServiceComponent,
+    PatientPillComponent,
+    AboutComponent,
+  
    
   ],
   imports: [
-    BrowserModule,
+  BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
+    HomeModule
     
   ],
   providers: [],
